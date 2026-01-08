@@ -1,0 +1,64 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+  background-color: rgb(240,240,240);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+  font-size: xx-large;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+p {
+  font-size: 25px;
+}
+
+li {
+  font-size: 25px;
+}
+
+h5 {
+  color: lightgray;
+}
+
+a:link {
+  color: #3A606E;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: slategray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#column1goaway {
+  display:none;
+}
+
+#column2goaway {
+  display:none;
+}
+
+/* Applies to all elements with <... class="someclass"> specified. */
+.someclass { color: red; }
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid { color: green; }
